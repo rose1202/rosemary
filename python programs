@@ -1,0 +1,17 @@
+#program to find the read of the circle
+pi=22/7
+radius=(float(input("enter the value of the radius :")))
+area=pi*radius*radius
+print("area of the circle with radius " + str(radius) + " is: " + str(area))
+
+
+#Program to accept a filename from the user and print the extension of the file
+filename=input("enter the filename :")
+f_extn=filename.split(".")
+if f_extn[-1]=='py':
+             print("extension of the file is python")
+
+
+
+
+
